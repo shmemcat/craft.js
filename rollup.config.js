@@ -61,6 +61,7 @@ export default {
           keep_infinity: true,
           pure_getters: true,
           passes: 10,
+          drop_console: false,
         },
         ecma: 5,
         warnings: true,

@@ -182,6 +182,7 @@ const Methods = (
      */
     add(nodeToAdd: Node | Node[], parentId: NodeId, index?: number) {
       // TODO: Deprecate adding array of Nodes to keep implementation simpler
+      console.log('it works!');
       let nodes = [nodeToAdd];
       if (Array.isArray(nodeToAdd)) {
         deprecationWarning('actions.add(node: Node[])', {
